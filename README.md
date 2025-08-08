@@ -1,17 +1,3 @@
-
-# UltraSonIQ Secure Bootstrap
-
-This patch sets up secure scaffolding for repository governance, including:
-
-- Pre-commit hooks
-- Linting and formatting
-- Secure defaults for file handling
-- Future CI/CD and DevSecOps integration
-
-## Included
-
-- `.gitignore`, `.gitattributes`, `.editorconfig`
-- `.pre-commit-config.yaml`
-- Standardised metadata and archive placement
-- Directory guards in core folders
-
+# README.md
+ScanIQ Engine Core - Patch 0002
+This patch contains the full production-grade core scanning and remediation logic for Azure CIS controls.

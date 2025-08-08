@@ -1,7 +1,18 @@
-
-Patch Number: 0001
-Patch Name: secure-bootstrap-extension
-Author: UltraSonIQ Build System
-Date: 2025-08-08
-Description: Sets up secure file handling defaults, metadata policies, pre-commit standards, and repo hygiene.
-Status: Completed
+patch_number: 0002
+patch_name: patch-0002_scaniq-engine-core
+estimated_zip_size: ~28 KB
+file_count: 9
+folders_modified:
+  - modules/scaniq/engine/
+  - tests/scaniq/
+  - docs/modules/scaniq/
+purpose_summary: Full production-grade implementation of ScanIQ scanning + remediation logic
+contains_code: true
+contains_tests: true
+contains_docs: true
+contains_ui: false
+scaffold_only: false
+replaces_previous_patch: null
+dependencies:
+  - patch-0000
+  - patch-0001
