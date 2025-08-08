@@ -1,0 +1,14 @@
+patch_id: patch-0000_v3_ultrasoniq_repo_full_bootstrap
+version: 3
+applied_on: 2025-08-08 17:56:42
+structure:
+  - docs/
+  - modules/
+  - scripts/
+  - tests/
+  - policies/
+  - archive/
+  - ui/
+  - config/
+notes: |
+  This manifest reflects a clean rebuild of patches 0000–0009 into a unified, clean-structured starting point.

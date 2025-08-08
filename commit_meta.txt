@@ -1,0 +1,4 @@
+Patch: patch-0000_v3_ultrasoniq_repo_full_bootstrap
+Timestamp: 2025-08-08 17:56:42
+Author: UltraSonIQ Platform Generator
+Status: Applied as clean bootstrap
