@@ -1,0 +1,17 @@
+
+patch: 0001
+name: secure-bootstrap-extension
+description: Secure linting, formatting, and governance scaffolding.
+includes:
+  - .gitignore
+  - .gitattributes
+  - .editorconfig
+  - .pre-commit-config.yaml
+  - README.md
+  - manifest.yaml
+tags:
+  - bootstrap
+  - security
+  - linting
+  - governance
+  - policy

@@ -1,27 +1,17 @@
-# UltraSonIQ Platform Bootstrap (Patch 0000 - v3)
 
-**Patch ID:** patch-0000_v3_ultrasoniq_repo_full_bootstrap  
-**Timestamp:** 2025-08-08 17:56:42  
-**Description:**  
-This patch fully bootstraps the UltraSonIQ repository with the correct structure, features, and consolidated content from patches 0000 through 0009.
+# UltraSonIQ Secure Bootstrap
 
-## Structure Included
-- `/docs/` - Platform documentation, architecture, and ISO guidance
-- `/modules/` - All modular feature components (ScanIQ, AIDA Core, etc.)
-- `/scripts/` - Automation, helper tools, installation support
-- `/tests/` - Benchmark test examples and test harness scaffolds
-- `/policies/` - Compliance and control policy templates
-- `/archive/` - Patch ZIP archive storage
-- `/ui/` - Placeholder for frontend scaffolding
-- `/config/` - Configuration files and templates
-- Root-level `README.md`, `patch_manifest.yaml`, `commit_meta.txt`
+This patch sets up secure scaffolding for repository governance, including:
 
-## Key Features
-- Consolidated AIDA Core integration
-- Working CIS scan engine scaffold (from ScanIQ)
-- Initial remediation logic
-- Structured modules layout for extensibility
-- Patch manifest and commit tracker included
-- Auto-build and install scripts (Linux and Windows)
+- Pre-commit hooks
+- Linting and formatting
+- Secure defaults for file handling
+- Future CI/CD and DevSecOps integration
 
----
+## Included
+
+- `.gitignore`, `.gitattributes`, `.editorconfig`
+- `.pre-commit-config.yaml`
+- Standardised metadata and archive placement
+- Directory guards in core folders
+
