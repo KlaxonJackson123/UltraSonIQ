@@ -1,16 +1,8 @@
-patch: 0002
-name: patch-0002_scaniq-engine-core
-structure:
-  - modules/scaniq/engine/scan_engine.py
-  - modules/scaniq/engine/remediation.py
-  - modules/scaniq/utils/helpers.py
-  - tests/scaniq/test_scan_engine.py
-  - tests/scaniq/test_remediation.py
-  - docs/modules/scaniq/README.md
-  - README.md
-metadata:
-  estimated_zip_size: 28 KB
-  patch_type: code
-  depends_on:
-    - patch-0000
-    - patch-0001
+patch_id: 0004
+name: Repo Structure Management Tools
+type: scripts
+description: >
+  Cross-platform script to apply patches from archive folder.
+files:
+  - scripts/patch_applier.py
+  - docs/scripts/README.md
